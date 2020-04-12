@@ -12,7 +12,7 @@ Overall, we think that we've learned lots with this project. We've trained model
 
 ## How we built it
 We used the databases provided by the IMIDA, the Murcian Institute of Agrarian R+D.
-These databases were composed of weather data picked up by several weather stations in our region. Most results date back to January 2000, and go up to December 2018. So we had plenty of data to train a model and make good predictions. All this data can be found in the data folder in the GitHub repo. There are 27 CSV files, one for each weather station in the region.
+These databases were composed of weather data picked up by several weather stations in our region. Most results date back to January 2000, and go up to December 2018. So we had plenty of data to train a model and make good predictions. All this data can be found in the data folder. There are 27 CSV files, one for each weather station in the region.
 We were interested primarily on the solar radiation values, as you can use them to calculate how much would a solar panel produce.
 
 To train the model, we used Facebook Prophet, a library that is commonly used for time series data. After much processing of the data and many headaches, we managed to get an accuracy score of 75%, which is not bad.
@@ -28,6 +28,3 @@ We were stuck for quite some time because our model was giving very bad predicti
 
 Hosting our web on AWS was also quite challenging, as we had little experience with the Linux command line, so setting everything up was a difficult but rewarding experience.
 The domain name is a sub domain of my website which points to the AWS instance. We also had to acquire a static IP for our website.
-
-
-[The code and data is available on GitHub!](https://github.com/MateoPeri/solar-predictor)
