@@ -28,3 +28,7 @@ We were stuck for quite some time because our model was giving very bad predicti
 
 Hosting our web on AWS was also quite challenging, as we had little experience with the Linux command line, so setting everything up was a difficult but rewarding experience.
 The domain name is a sub domain of my website which points to the AWS instance. We also had to acquire a static IP for our website.
+
+## More insight
+
+In our opinion, this is a very innovative idea in our region, as there is a lot of energy that could be harvested but goes instead to waste. This project can impact people (and governments), and make them realize that solar power can be a good alternative to fossil fuels, as solar is a clean and renewable source of energy. It would be a great way of fighting against climate change, while providing us with sustainable energy.
